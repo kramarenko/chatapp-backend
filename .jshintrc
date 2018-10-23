@@ -1,0 +1,28 @@
+{
+
+  "maxerr"        : 50,       // {int} Maximum error before stopping
+
+  // Enforcing
+  "bitwise"       : true,     // true: Prohibit bitwise operators (&, |, ^, etc.)
+  "curly"         : true,     // true: Require {} for every new block or scope
+  "eqeqeq"        : true,     // true: Require triple equals (===) for comparison
+  "noarg"         : true,     // true: Prohibit use of `arguments.caller` and `arguments.callee`
+  "noempty"       : true,     // true: Prohibit use of empty blocks
+  "nonbsp"        : true,     // true: Prohibit "non-breaking whitespace" characters.
+
+  "undef"         : true,     // true: Require all non-global variables to be declared (prevents global leaks)
+  "unused"        : true,     // Unused variables:
+
+  // Relaxing
+  "debug"         : true,     // true: Allow debugger statements e.g. browser breakpoints.
+  "eqnull"        : false,     // true: Tolerate use of `== null`
+  "esversion"     : 6,         // {int} Specify the ECMAScript version to which the code must adhere.
+
+  "devel"         : true,     // Development/debugging (alert, confirm, etc)
+  "node"          : true,    // Node.js
+
+  // Custom Globals
+  "globals"       : {
+    "console": true
+  }        // additional predefined global variables
+}
